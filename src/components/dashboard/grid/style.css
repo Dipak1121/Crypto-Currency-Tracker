@@ -1,0 +1,148 @@
+.grid-container, .grid-container-red{
+    width: 270px;
+    background-color: var(--darkgrey);
+    border: 2px solid var(--darkgrey);
+    border-radius: 0.75rem;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.grid-container:hover{
+    border-color: var(--green);
+    transition: all 0.3s;
+}
+
+.grid-container-red:hover{
+    border-color: var(--red);
+    transition: all 0.3s;
+}
+
+.flex-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 0px !important;
+}
+.flex-symbol{
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+
+}
+
+.coin-logo{
+    height: 3.5rem;
+    width: 3.5rem;
+    gap: 0rem;
+}
+.coin-symbol{
+    color: var(--white);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin: 0;
+}
+.coin-name{
+    color: var(--grey);
+    font-weight: light;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.chip-flex{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    align-items: center;
+}
+
+.watchlist{
+    padding: 0.3rem;
+    border-radius: 50%;
+}
+.pink{
+    background-color: pink;
+}
+.pink:hover{
+    color: pink;
+    background-color: white;
+
+}
+.price-chip{
+    border: 2px solid var(--green);
+    border-radius: 1rem;
+    padding: 0.35rem 1.25rem;
+    text-align: center;
+    font-weight: 600;
+    color: var(--green);
+    font-size: 1.2rem;
+}
+
+.price-red{
+    border: 2px solid var(--red);
+    color: var(--red);
+}
+
+
+
+.icon-chip{
+    border: 2px solid var(--green);
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    text-align: center;
+    font-weight: 400;
+    color: var(--green);
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.red-icon{
+    color: var(--red);
+    border: 2px solid var(--red);
+}
+
+.price-chip:hover, .icon-chip:hover{
+    background-color: var(--green);
+    border: 2px solid var(--white);
+    color: var(--white);
+    transition: all 0.3s;
+}
+
+.price-red:hover, .red-icon:hover{
+    background-color: var(--red);
+    border: 2px solid var(--white);
+    color: var(--white);
+    transition: all 0.3s;
+}
+
+
+
+.info-container h3{
+    color: var(--green);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.total-volume, .market-cap{
+    color: var(--white);
+    opacity: 0.5;
+    font-size: 1rem;
+    font-weight: 200;
+    width: 100%;
+}
+
+.info-container1{
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 0.6rem;
+    text-align: left !important;
+}

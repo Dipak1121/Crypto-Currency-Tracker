@@ -1,0 +1,116 @@
+.flex-info{
+    /* width: 100vw; */
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    /* padding: 0.5rem 3rem  !important; */
+    
+}
+
+.left-component{
+    margin-left: 2rem;
+}
+.track-crypto-heading, .real-time-heading{
+    font-size: 6.5rem;
+    margin: 0;
+}
+
+.track-crypto-heading{
+    color: var(--wite);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: var(--white);
+}
+
+.track-crypto-heading:hover{
+    color: var(--black);
+    transition: all 0.5s;
+}
+
+.real-time-heading{
+    color: var(--blue);
+}
+
+.info-text{
+    font-size: 1rem;
+    color: var(--grey);
+}
+
+.btn-flex{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 2rem;
+}
+
+.right-component{
+
+   width: 50%;
+    position: relative;
+    
+}
+.phone{
+    position: absolute;
+    z-index: 1;
+    min-width: 300px;
+    width: 50%;
+    left: 10vw;
+    top: -6rem;
+    /* animation: bounce 1s linear infinite; */
+}
+
+.gradient{
+    position: absolute;
+    min-width: 250px;
+    width: 40%;
+    top: -1rem;
+    left: 13vw;
+    /* animation: bounce 1s linear infinite; */
+}
+
+@media only screen and (max-width: 1350px) {
+    .track-crypto-heading, .real-time-heading{
+        font-size: 4.5rem;
+    }
+
+    
+}
+
+@media only screen and (max-width: 1000px){
+    .phone{
+        min-width: 250px;
+        top: 5rem;
+    }
+    .gradient{
+        min-width: 200px;
+        top: 8rem;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .flex-info{
+        flex-direction: column !important;
+        align-items: center;
+        gap: 50px;
+    }
+    .real-time-heading, .track-crypto-heading{
+        font-size: 3rem;
+        font-weight: 600;
+        text-align: center;
+    }
+    .track-crypto-heading{
+        -webkit-text-stroke-width: 1px;
+    }
+}
+
+/* @keyframes bounce{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(20px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+} */
